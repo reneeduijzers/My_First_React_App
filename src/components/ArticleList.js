@@ -55,14 +55,15 @@ export default function ArticleList() {
 
   return (
     <div>
-      <button onClick={clear}>clear</button>
       <h2>Here's a lovely list of articles, for your reading pleasure:</h2>
       {articles
         ? articles.map((article) => (
             <Articlecard title={article.title} body={article.body} />
           ))
         : "Loading..."}
-
+      <p>
+        <button onClick={clear}>clear</button>
+      </p>
       {/* {articles.map((article) => (
         <Articlecard title={article.title} body={article.body} />
       ))} */}

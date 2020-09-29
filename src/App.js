@@ -54,8 +54,6 @@ function App() {
       <Title content="My Pokemon App" />
       <LikeCounter />
       <LikeButton />
-      <AwesomeAnimals />
-      <ArticleList />
       <div className="row mb-4">
         {all_pokemon.map((pokemon) => (
           <div className="col-md-6 col-lg-4">
@@ -69,15 +67,13 @@ function App() {
           </div>
         ))}
       </div>
+      <ArticleList />
+      <AwesomeAnimals />
     </main>
   );
 }
 
 export default App;
-
-
-
-
 
 // STATIC WAY (SAME RESULT):
 

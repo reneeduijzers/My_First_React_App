@@ -21,9 +21,12 @@ export default function LikeCounter() {
   return (
     <div>
       <p>
-        This App has <b>{numLikes}</b> likes!
-        <button onClick={increment}>Like</button>
-        <button onClick={reset}>Reset</button>
+        This App has <b>{numLikes}</b> likes!{" "}
+      </p>
+      <p>
+        {" "}
+        <button onClick={increment}>Like</button>{" "}
+        <button onClick={reset}>Reset</button>{" "}
       </p>
     </div>
   );
