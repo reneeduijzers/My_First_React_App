@@ -4,12 +4,12 @@ App to practise the basics of React :sweat_smile:. An awesome Javascript framewo
 
 ## Description 
 
-- fetching and display data 
+- fetching data with Axios 
 - using React State management
 - :+1: button
 - clearbutton
 - 🎨 with CSS, Sass and Bootstrap
-- adding some animation
+- adding some animation with CSS
 
 ## Online 
 
