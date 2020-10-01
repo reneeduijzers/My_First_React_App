@@ -19,13 +19,4 @@ You can find working version [here](https://myfirstreactapp-reneeduijzers.netlif
 
 ![App demo](https://github.com/reneeduijzers/My_First_React_App/blob/master/README_assests/AwesomeApp.gif)
 
-## Tech Used
 
-- HTML 
-- CSS
-- Bootstrap
-- Sass
-- CSS Animations
-- Javascript
-- React: useState
-- Axios 
